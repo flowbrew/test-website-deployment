@@ -13,3 +13,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo 'ok'
+
+  nothing-error:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echook
+        
